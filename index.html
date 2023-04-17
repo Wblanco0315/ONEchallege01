@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="title">
+            <H1>Encriptador De texto</H1>
+        </div>
+        <input type="text" id="input" placeholder="Ingrese mensaje">
+        <div id="res">
+            <h2 id="msg"></h2>
+            <div id="resBox">
+                <textarea name="" id="word" cols="40" rows="1"></textarea>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="cript" onclick="encriptar()">Encriptar</button>
+            <button id="descript" onclick="desencriptar()">Desencriptar</button>
+            <button id="copy" onclick="copy()">Copiar</button>
+        </div>
+    </div>
+    <script src="operaciones.js"></script>
+    <footer>
+        Hecho por Wilson Blanco
+    </footer>
+</body>
+
+</html>
